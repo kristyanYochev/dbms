@@ -5,7 +5,7 @@ CREATE TABLE IF NOT EXISTS Students (
     Id INTEGER AUTO_INCREMENT PRIMARY KEY,
     Name VARCHAR(128),
     Num INTEGER(2),
-    CLASS VARCHAR(3),
+    Class VARCHAR(3),
     EGN CHAR(10),
     EntranceExamResult DECIMAL(3, 2),
     Birthday DATE
